@@ -13,6 +13,12 @@
     {% if cv.basics.email %}
       <div class="email"><strong>Email</strong> <a href="mailto:{{ cv.basics.email }}">{{ cv.basics.email }}</a></div>
     {% endif %}
+    {% if cv.basics.github %}
+      <div class="website"><strong>Github</strong> <a href="{{ cv.basics.github }}">{{ cv.basics.github }}</a></div>
+    {% endif %}
+    {% if cv.basics.linkedin %}
+      <div class="website"><strong>Linkedin</strong> <a href="{{ cv.basics.linkedin }}">{{ cv.basics.linkedin }}</a></div>
+    {% endif %}
     {% if cv.basics.phone %}
       <div class="phone"><strong>Phone</strong> {{ cv.basics.phone }}</div>
     {% endif %}
