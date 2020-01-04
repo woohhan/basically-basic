@@ -13,11 +13,11 @@ $base-font-size: 16px !default;
 $min-vw: $small !default;
 $max-vw: $xlarge !default;
 $min-font-size: 14px !default;
-$max-font-size: 18px !default;
+$max-font-size: 16px !default;
 
 /* Calculate Modular Scale */
-$modular-scale-1: 1.067 !default; /* small */
-$modular-scale-2: 1.296 !default; /* large */
+$modular-scale-1: 1.057 !default; /* small */
+$modular-scale-2: 1.262 !default; /* large */
 /* Heading 1 */
 $h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
   $modular-scale-1 * $base-font-size !default;
